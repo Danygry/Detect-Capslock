@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    background-color: #252525;
+    color: aqua;
+    height: 600px;
+}
+
+                /* CONTENUTO */
+.container {
+    padding: 40px;
+    border: 3px solid #FAFDFF;
+    border-radius: 10px;
+}
+
+#text {
+    display: none;
+    color: red;
+}
+
+input {                                        /* STILE INPUT DI TESTO */
+    font-family: Arial, Helvetica, sans-serif;
+    width: 200px;
+    height: 30px;
+    transition: 0.3s;
+    border-radius: 5px;
+    padding: 0 5px;
+    border: 3px solid #FAFDFF;
+    outline: none;
+    background-color: #252525;
+    color: #FAFDFF;
+}
+
+#signal {            /* STILE SEGNALE SPIA AVVISO */
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: red;
+    box-shadow: 0 0 7px red;
+    margin-right: 10px;
+}
